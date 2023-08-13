@@ -1,0 +1,24 @@
+*{padding: 0%;margin: 0;}
+.container{height: 100vw;
+           width: 100vw;
+           color: brown;
+           background-color: #edceeb;
+           text-align: center;}
+.container{
+    padding-top: 20%;margin-bottom: 15px;
+} 
+h2{font-size: 70px;margin-bottom: 30px;}
+.container a{text-decoration: none;
+    background: #eee;
+     padding: 5px;
+     margin: 5px 10px;
+     border: 3px solid #ddd;
+     border-radius: 100px;
+    }  
+
+img{height: 10vw;
+    animation: heart 4s linear infinite;}
+
+@keyframes heart{
+    10%{transform: scale(.5);}
+}    
